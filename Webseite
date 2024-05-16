@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dowois: Songcover und Geschichten</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        h2 {
+            margin: 20px 0;
+            font-size: 24px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .book-link {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .book-link:hover {
+            background-color: #0056b3;
+        }
+        .Merch-link {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .Merch-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\Dominik\Desktop\Programmieren\Web-Banner.png" alt="">
+        <h1>Willkommen auf meiner Webseite</h1>
+    </header>
+    <section>
+        <h2>Über mich</h2>
+        <p>Hallo, ich bin Dowois (bürgerlich: Dominik) und ich liebe es zu singen und Geschichten zu schreiben. Auf meinem Youtube-Kanal<a href="https://www.youtube.com/channel/UC4IKCE4MXe5Y_jw0QrKLUaA" target="_blank">"Zephyr_115"</a> teile ich meine Songcover und auf meinem Zweitkanal <a href="https://www.youtube.com/channel/UCA1HnOi6nbJpkg2pUghMv5Q" target="_blank">"Dowois"</a> sogar ein paar meiner Geschichten.</p>
+        <div class="youtube-link">
+            <h2>Songcover und Hörbuch Vorschau</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <h3>Hörbuch hörprobe</h3>
+            <audio controls>
+                <source src="deine_audio_datei.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+        </div>
+    </section>
+    <section>
+        <h2>Geschichten und Gedanken hinter meinen Büchern</h2>
+        <h3>Private- und Hörbücher</h3>
+        <p>Murder Drones Fan-Story:<br>Ausstehend</p>
+        <p>Murder Drones Band 2:<br>Ausstehend</p>
+        <br>
+        <h3>Öffentliche Bücher</h3>
+        <p>Ausstehend</p>
+    </section>
+    <section>
+        <h2>Meine Bücher</h2>
+        <p>Hier geht es zur Verkaufsseite meiner Bücher: <a href="[Link zu deiner Verkaufsseite]" target="_blank" class="book-link">Hier klicken</a>.</p>
+        <br>
+        <h3>Andere Artikel</h3>
+        <p>Hier gibt es noch andere Artikel von mir: <a href="[Link zur Verkaufsseite]" target="_blank" class="Merch-link">Hier klicken</a>.</p>
+    </section>
+    <section>
+        <h2>Kontaktiere mich</h2>
+        <div class="contact-info">
+            <p>Du kannst mich über meine E-Mail-Adresse erreichen: <a href="mailto:dominikleupolt1@gmail.com">dominikleupolt1@gmail.com</a></p>
+        </div>
+    </section>
+
+</body>
+</html>
